@@ -15,6 +15,7 @@ import { createContext } from 'react';
 import { useState } from 'react';
 import Register from './Components/RegisterFrom/Register';
 import PrivateRoute from './Components/PrivateRoute/PrivateRoute';
+import ShowFormDataBase from './Components/ShowOrgFromDataBase/ShowFormDataBase';
 
 export const UserContext = createContext();
 
@@ -37,6 +38,9 @@ function App() {
           <PrivateRoute path="/register/:id">
            <Register/>
           </PrivateRoute>
+          <Route path="/showOrg">
+            <ShowFormDataBase/>
+          </Route>
           <Route exact path="/">
             <Home />
           </Route>

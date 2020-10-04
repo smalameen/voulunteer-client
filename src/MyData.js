@@ -49,45 +49,30 @@ const fakeData = [
         description:"Volunteering provides many benefits to both mental and physical health. Volunteering helps counteract the effects of stress, anger, and anxiety.",
         img:"https://i.ibb.co/qMbq56c/clearn-Park.png"
     },
-    // {
-    //     id: 9,
-    //     orgName:"Refuge Support",
-    //     img:"https://i.ibb.co/qMbq56c/clearn-Park.png"
-    // },
-    // {
-    //     id: 10,
-    //     orgName:"Refuge Support",
-    //     img:"https://i.ibb.co/10BTvPR/cloth-Swap.png"
-    // },
-    // {
-    //     id: 11,
-    //     orgName:"Refuge Support",
-    //     img:"https://i.ibb.co/cb0LRgP/extra-Volunteer.png"
-    // },
-    // {
-    //     id: 12,
-    //     orgName:"Refuge Support",
-    //     img:"https://i.ibb.co/10BTvPR/cloth-Swap.png"
-    // },
-    // {
-    //     id: 13,
-    //     orgName:"Refuge Support",
-    //     img:"https://i.ibb.co/mRjzXnw/vote-Register.png"
-    // },
-    // {
-    //     id: 14,
-    //     orgName:"Refuge Support",
-    //     img:"https://i.ibb.co/HtY0jxC/school-Suffiles.png"
-    // },
-    // {
-    //     id: 15,
-    //     orgName:"Refuge Support",
-    //     img:"https://i.ibb.co/q7Zdgv7/study-Group.png"
-    // },
-    // {
-    //     id: 16,
-    //     orgName:"Refuge Support",
-    //     img:"https://i.ibb.co/L81GhNd/library-Books.png"
-    // },
+    {
+        id: 8,
+        orgName:"Collect School supplies",
+        description:"Volunteering provides many benefits to both mental and physical health. Volunteering helps counteract the effects of stress, anger, and anxiety.",
+        img:"https://i.ibb.co/R4zT4Mn/school-Suffiles.png"
+    },
+    {
+        id: 9,
+        orgName:"Good education",
+        description:"Volunteering provides many benefits to both mental and physical health. Volunteering helps counteract the effects of stress, anger, and anxiety.",
+        img:"https://i.ibb.co/3d0vFfv/good-Education.png"
+    },
+    {
+        id: 10,
+        orgName:"Give IT help to local adults",
+        description:"Volunteering provides many benefits to both mental and physical health. Volunteering helps counteract the effects of stress, anger, and anxiety.",
+        img:"https://i.ibb.co/nPTJQL1/ITHelp.png"
+    },
+    {
+        id: 11,
+        orgName:"New books for children",
+        description:"Volunteering provides many benefits to both mental and physical health. Volunteering helps counteract the effects of stress, anger, and anxiety.",
+        img:"https://i.ibb.co/rcXJy21/newBooks.png"
+    }
+    
 ];
 export default fakeData;

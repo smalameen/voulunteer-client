@@ -4,6 +4,7 @@ import { UserContext } from "../../App";
 
 import fakeData from "../../../src/MyData";
 import { Button, Form } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 
 
@@ -13,7 +14,7 @@ const Register = () => {
   const [loggedInUser, setLoggedInUser] = useContext(UserContext);
 //   console.log(loggedInUser);
 
-  const newFakeData3 = fakeData.slice(0, 7);
+  const newFakeData3 = fakeData.slice(0, 11);
 //   console.log(newFakeData3);
 
   const orgDetailsData = newFakeData3.find((tr) => tr.id == id);
@@ -55,9 +56,9 @@ const Register = () => {
           <Form.Control  size="lg" type="text" defaultValue={orgDetailsData.orgName} />
         <br/> 
         
-        <Button onClick= {()=> handleTheOrg() } variant="primary">
+        <Link to="/showOrg"><Button onClick= { ()=> handleTheOrg() } variant="primary">
           Register
-        </Button>
+        </Button></Link>
       </Form>
     </div>
   );
